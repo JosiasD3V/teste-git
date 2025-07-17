@@ -1,4 +1,101 @@
-img{
-    height: 150px;
-    width: 150px;
+body{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    background-color: #0D0d0d;
+    color: white;
+    
+    
 }
+*{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 25px;
+    
+}
+
+
+
+.Container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    font-size: 35px;
+
+
+
+}
+
+
+.Container-header img{
+    width: 90px;
+    height: 90px;
+}
+.Container-header nav{
+    display: flex;
+    list-style: none;
+}
+.Container-header ul{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    margin: 30px;
+}
+
+
+.sec-imgs-text{
+    display: flex
+
+}
+
+
+.img1{
+    margin-left: 15px;
+    float: left;
+}
+.img2{
+    margin-right: 15px;
+    float: right;
+}
+.img3{
+    margin-left: 15px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    body{
+        background-color: aliceblue;
+        color: black;
+    }
+  
+  .header-container{
+    background-color: rgb(245, 240, 240);
+}
+  .sec-imgs-text{
+    display: flow-root
+
+}
+.sec-imgs-text img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+  main {
+    max-width: 700px;
+    margin: auto;
+  }
+}
+
