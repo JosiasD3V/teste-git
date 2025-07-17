@@ -1,16 +1,31 @@
-body{
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-    background-color: #0D0d0d;
-    color: white;
-    
-    
-}
 *{
     font-family: "Pixelify Sans", sans-serif;
     font-size: 25px;
     
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    background-color: #000000;
+    color: rgb(189, 184, 219);
+    
+    
+}
+.sec-imgs-text{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec-imgs-text div{
+    height: 600px;
+    width: 590px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.sec-imgs-text div img {
+    height: 160px;
+    width: 160;
 }
 
 
@@ -40,27 +55,16 @@ body{
     list-style: none;
     margin-left: 50px;
     margin: 30px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.Container-header ul img{
+    height: 80px;
+    width: 80px;
 }
 
 
-.sec-imgs-text{
-    display: flex
-
-}
-
-
-.img1{
-    margin-left: 15px;
-    float: left;
-}
-.img2{
-    margin-right: 15px;
-    float: right;
-}
-.img3{
-    margin-left: 15px;
-    float: left;
-}
 
 
 
@@ -92,6 +96,19 @@ body{
     height: 100px;
     
 }
+.img1{
+    margin-left: 15px;
+    float: left;
+}
+.img2{
+    margin-right: 15px;
+    float: right;
+}
+.img3{
+    margin-left: 15px;
+    float: left;
+}
+
 
   main {
     max-width: 700px;
