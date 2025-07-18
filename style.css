@@ -63,7 +63,11 @@ body{
     height: 80px;
     width: 80px;
 }
+.Container-header ul a{
+    color: rgb(189, 184, 219);
+    text-decoration: none;
 
+}
 
 
 
